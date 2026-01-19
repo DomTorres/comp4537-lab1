@@ -1,3 +1,8 @@
+/**
+ * ChatGPT was used to help write this code.
+ * I used it to create starter code, and how to structure the classes.
+ */
+
 class NoteView {
     constructor(note) {
         this.note = note;
