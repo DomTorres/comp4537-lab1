@@ -1,0 +1,85 @@
+/* ===== Base page styling ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f7f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* ===== Saved timestamp (top right) ===== */
+#stored-at, #updated-at {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* ===== Notes container ===== */
+#notes {
+    max-width: 700px;
+    margin: 60px auto 20px auto;
+}
+
+/* ===== Individual note ===== */
+#notes > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+/* ===== Textarea ===== */
+textarea {
+    flex: 1;
+    min-height: 80px;
+    resize: vertical;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ===== Buttons ===== */
+button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add button */
+#add {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: white;
+}
+
+#add:hover {
+    background-color: #0056b3;
+}
+
+/* Remove button */
+#notes button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#notes button:hover {
+    background-color: #b02a37;
+}
+
+/* ===== Back link ===== */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
